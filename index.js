@@ -47,7 +47,7 @@ async function deleteInColletion(collection) {
 async function testeDB(client) {
   const database = await client.db('scrawping')
   const location = await database.collection('locations')
-  await createInColletion(location)
+  // await createInColletion(location)
   // await retrieveInColletion(location)
   // await updateInColletion(location)
   // await deleteInColletion(location)
